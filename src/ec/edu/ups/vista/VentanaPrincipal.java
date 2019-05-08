@@ -483,7 +483,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         return respuesta;
     }
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
-        //! simbolo.. Diferente
+        
         //aqui realizo la suma
         if (!txtpantalla.getText().equals("")) {
             numero1 = txtpantalla.getText();
