@@ -14,7 +14,6 @@ import javax.swing.JFrame;
 public class VentanaPrincipal extends javax.swing.JFrame {
 
     //atributos que voy a utilizar para emplear la calculadora
-
     private boolean punto = true; //para el boton punto
     String numero1, numero2, signo, contenido;
     Double resultado;
@@ -387,9 +386,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-
-        contenido = txtpantalla.getText();
         //contenido menor o igual a 0 muestra 0.
+        contenido = txtpantalla.getText();
+
         //solo va a permitir ingresar un punto
         if (contenido.length() <= 0) {
             txtpantalla.setText("0.");
